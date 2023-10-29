@@ -61,11 +61,15 @@
 //int CountOddNum(int n, int m)
 //{
 //    int count = 0;
+//    if (n<m)
+//    {
 //    for (int i = n; i <= m; i++)
-//        if (i % 2 == 1)
 //        {
-//            return count++;
+//            if (i % 2 == 1)
+//                count++;
 //        }
+//    return count;
+//    }
 //    return 0;
 //}
 
@@ -88,20 +92,21 @@
 #region Task4
 //Verilmis n ve m (n<m) ededleri arasindaki tek ededlerin cemini tapin.
 
-
-using System.ComponentModel.Design;
-
-int SumOddNum(int n, int m)
-{
-    int sum = 0;
-    for (int i = n; i <= m; i++)
-    {
-        if (i%2 == 1)
-            return sum+=i;
-    }
-    return 0;
-}
-
+//Console.WriteLine(SumOddNum(1,10));
+//int SumOddNum(int n, int m)
+//{
+//    int sum = default;
+//    if (n <m)
+//    {
+//        for (int i = n; i <= m; i++)
+//        {
+//            if (i % 2 == 1)
+//                sum += i;
+//        }
+//            return sum;
+//    }
+//    return 0;
+//}
 
 
 //int n = int.Parse(Console.ReadLine());
